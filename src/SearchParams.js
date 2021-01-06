@@ -64,6 +64,7 @@ const SearchParams = () => {
             <option value="darkblue">Dark Blue</option>
             <option value="mediumorchid">Medium Orchid</option>
             <option value="chartreuse">Chartreuse</option>
+            <option value="pink">Pink</option>
           </select>
         </label>
         <button style={{ backgroundColor: theme }}>Submit</button>

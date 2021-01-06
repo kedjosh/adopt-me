@@ -6,13 +6,13 @@ import Details from "./Details";
 import ThemeContext from "./ThemeContext";
 
 const App = () => {
-  const themeHook = useState("darkblue");
+  const themeHook = useState("orange");
   return (
     <React.StrictMode>
       <ThemeContext.Provider value={themeHook}>
         <div>
           <header>
-            <Link to="/">Adopt Me!!!</Link>
+            <Link to="/">Adopt Me!</Link>
           </header>
           <Router>
             <SearchParams path="/" />
