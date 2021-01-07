@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "@reach/router";
 
 export default function Pet({ name, animal, breed, media, location, id }) {
-  let hero = "http://placeporgi.com/300/300";
+  let hero = "https://placeporgi.com/300/300";
   if (media.length) {
     hero = media[0].small;
   }
